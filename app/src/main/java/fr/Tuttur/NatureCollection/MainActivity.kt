@@ -8,10 +8,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val transaction =  supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.fragment_container, HomeFragement())
-        transaction.addToBackStack(null)
-        transaction.commit()
+
+        // Charger notre repo
+        val repo = PlantRepository()
+        repo.updateData{
+            val transaction =  supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragment_container, HomeFragement(this))
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
+
 
 
     }

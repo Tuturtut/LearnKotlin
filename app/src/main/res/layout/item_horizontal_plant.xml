@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="150dp"
     android:layout_height="match_parent"
-    android:layout_marginLeft="@dimen/defaut_margin"
+    android:layout_marginStart="@dimen/defaut_margin"
     app:cardCornerRadius="20dp"
     app:cardElevation="5dp"
     >
@@ -16,6 +16,15 @@
         android:scaleType="centerCrop"
 
         android:src="@drawable/bg1"
+    />
+
+    <ImageView
+        android:id="@+id/star_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="@dimen/item_margin"
+        android:src="@drawable/ic_unlike"
+        app:tint="@color/green"
     />
 
 </androidx.cardview.widget.CardView>

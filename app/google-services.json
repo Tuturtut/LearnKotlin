@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301653673884",
+    "project_id": "naturecollection-bee20",
+    "storage_bucket": "naturecollection-bee20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301653673884:android:c4ed1af5f493edbf562a59",
+        "android_client_info": {
+          "package_name": "fr.Tuttur.NatureCollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301653673884-uv78e8je0oobius0mt1lhnhajrbc50r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3s9iKk-wuFvODJ0PjRhbk6YAay8uVdyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301653673884-uv78e8je0oobius0mt1lhnhajrbc50r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
