@@ -23,6 +23,7 @@
 
     <style name="TitleTextStyle" parent="DefaultTextStyle">
         <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/darkGray</item>
     </style>
 
 </resources>
